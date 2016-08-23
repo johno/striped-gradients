@@ -1,0 +1,21 @@
+{
+  "name": "striped-gradients",
+  "description": "Add stripes to your webpage with CSS gradients",
+  "author": "John Otander",
+  "version": "0.1.0",
+  "main": "index.css",
+  "scripts": {
+    "start": "tachyons index.css striped-gradients.min.css"
+  },
+  "repository": "johnotander/striped-gradients",
+  "keywords": [
+    "gradients",
+    "css",
+    "stripes"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "tachyons-cli": "^1.0.2"
+  }
+}
