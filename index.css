@@ -1,7 +1,19 @@
-'use strict'
+.bg-retro-black {
+  background: linear-gradient(to right top, transparent 33%, #333 33%, #333 66%) 0% 0% / .15rem, .15rem;
+}
 
-module.exports = function stripedGradients (options) {
-  options = options || {}
+.bg-retro-white {
+  background: linear-gradient(to right top, transparent 33%, #fff 33%, #fff 66%) 0% 0% / .15rem, .15rem;
+}
 
-  return true
+.bg-retro-white-bottom {
+  background: linear-gradient(to right bottom, transparent 33%, #fff 33%, #fff 66%) 0% 0% / .15rem, .15rem;
+}
+
+.bg-retro-white-full {
+  background: linear-gradient(to right top, transparent 33%, #fff 33%, #fff 66%, transparent 66%) 0% 0% / .15rem, .15rem;
+}
+
+.bg-retro-black-full {
+  background: linear-gradient(to right top, transparent 33%, #333 33%, #333 66%, transparent 66%) 0% 0% / .15rem, .15rem;
 }

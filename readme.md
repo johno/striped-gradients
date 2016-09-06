@@ -1,4 +1,6 @@
-# striped-gradients [![Build Status](https://secure.travis-ci.org/johnotander/striped-gradients.svg?branch=master)](https://travis-ci.org/johnotander/striped-gradients) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+# ≡ [striped-gradients](http://johnotander.com/striped-gradients)
+
+__Work in progress__
 
 Add stripes to your webpage with CSS gradients
 
@@ -10,11 +12,29 @@ npm install --save striped-gradients
 
 ## Usage
 
+#### js
+
 ```javascript
 var stripedGradients = require('striped-gradients')
 
-stripedGradients()  // => true
+stripedGradients() // => { ... }
 ```
+
+#### css with [postcss-import](https://github.com/postcss/postcss-import)
+
+```css
+@import "striped-gradients";
+```
+
+#### link in html
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/striped-gradients@1.0.0/css/striped-gradients.min.css" />
+```
+
+## Related
+
+- <https://github.com/mrmrs/gradients>
 
 ## License
 

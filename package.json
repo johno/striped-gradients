@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "main": "index.css",
   "scripts": {
-    "start": "tachyons index.css striped-gradients.min.css"
+    "start": "tachyons index.css > css/striped-gradients.min.css --minify"
   },
   "repository": "johnotander/striped-gradients",
   "keywords": [
