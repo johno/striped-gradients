@@ -2,7 +2,8 @@
 
 __Work in progress__
 
-Add stripes to your webpage with CSS gradients
+An experiment to add beautiful visual effects to a website without adversely affecting performance.
+Currently weighing in at a miniscule 155 bytes.
 
 ## Installation
 
